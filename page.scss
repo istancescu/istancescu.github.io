@@ -13,13 +13,14 @@
   }
 }
 
-html,
-body,
-.container {
-  height: 100%;
+html {
+  display:flex;
 }
 
 .container {
+  height: 60%;
+  width: 100%;
+  margin: auto;
   background-image: url(particle-bg.png);
 }
 
