@@ -24,7 +24,7 @@ html {
 }
 
 .container {
-  height: 60%;
+  height: 37%;
   width: 100%;
   margin: auto;
   background-image: url(particle-bg.png);
@@ -140,5 +140,46 @@ h3 {
   margin: auto;
   width: 100%;
   height: auto;
+}
+
+hr {
+  color: #C2C2C2;
+  width: 30%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.subfooter-container {
+  background-image: url(vtest.png);
+  background-size: 100% 100%;
+  min-height: 60em;
+  height: 100%;
+}
+
+.subfooter-container ul li {
+  list-style: none;
+  width: 40%;
+  margin: auto;
+  padding-top: 3em;
+  text-align: start;
+}
+
+.subfooter-container ul li .title {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.subfooter-container ul li .subtext {
+  text-align: start;
+  color: #AAA8A8;
+  font-size: 0.9em;
+}
+
+.subfooter-container ul li .text-description {
+  text-align: start;
+  margin-top: 5px;
+  font-size: 0.95em;
+  color: white;
 }
 /*# sourceMappingURL=page.css.map */

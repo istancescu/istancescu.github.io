@@ -18,14 +18,14 @@ html {
 }
 
 .container {
-  height: 60%;
+  height: 37%;
   width: 100%;
   margin: auto;
   background-image: url(particle-bg.png);
 }
 
 * {
-  
+
   font-family: "Ubuntu";
   font-weight: normal;
   margin: 0;
@@ -124,4 +124,43 @@ h3 {
 margin: auto;
 width: 100%;
 height: auto;
+}
+
+hr {
+  color: #C2C2C2;
+  width: 30%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.subfooter-container {
+  background-image: url(vtest.png);
+  background-size:100% 100%;
+  min-height: 60em;
+  height: 100%;
+  ul {
+    li {
+      list-style: none;
+      width: 40%;
+      margin: auto;
+      padding-top: 3em;
+      text-align: start;
+      .title {
+        color: white;
+        font-size: 2em;
+        font-weight: bold;
+      }
+      .subtext {
+        text-align: start;
+        color: #AAA8A8;
+        font-size: 0.9em;
+      }
+      .text-description {
+        text-align: start;
+        margin-top: 5px;;
+        font-size: 0.95em;
+        color: white;
+      }
+    }
+  }
 }
