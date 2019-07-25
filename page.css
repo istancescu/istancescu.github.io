@@ -17,12 +17,6 @@
   list-style-type: none;
 }
 
-html {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .container {
   height: 37%;
   width: 100%;
