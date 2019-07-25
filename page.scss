@@ -13,12 +13,8 @@
   }
 }
 
-html {
-
-}
 
 .container {
-  height: 37%;
   width: 100%;
   margin: auto;
   background-image: url(particle-bg.png);
@@ -41,7 +37,7 @@ h2 {
 h1 {
   font-weight: bold;
   font-size: 5.625em;
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 h2 {
@@ -55,8 +51,9 @@ h3 {
 }
 
 .scroll { 
+  padding-bottom: 5em;
     img {
-        margin-top: 14.4em;
+        margin-top: 13em;
         width: 9em;
         display: block;
         margin-left: auto;
