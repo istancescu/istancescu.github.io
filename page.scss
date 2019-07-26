@@ -21,12 +21,12 @@
 }
 
 * {
-
   font-family: "Ubuntu";
   font-weight: normal;
   margin: 0;
   padding: 0;
 }
+
 
 h1,
 h2 {
@@ -66,7 +66,6 @@ h3 {
 
 .grid {
   margin-top: 50px;
-  margin-bottom: 50px;
 
   h3 {
     font-weight: bold;
@@ -131,8 +130,8 @@ hr {
 .subfooter-container {
   background-image: url(vtest.png);
   background-size:100% 100%;
+  overflow: hidden;
   min-height: 60em;
-  height: 100%;
   ul {
     li {
       list-style: none;
@@ -157,5 +156,22 @@ hr {
         color: white;
       }
     }
+  }
+}
+
+footer {
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    color: #7340C9;
+    margin: 0 15px 0 15px;
+  }
+  p {
+    color: #4A4A4A;
+  }
+  a, p {
+    font-size: 3.4em;
   }
 }

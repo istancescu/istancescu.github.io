@@ -65,7 +65,6 @@ h3 {
 
 .grid {
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .grid h3 {
@@ -145,8 +144,8 @@ hr {
 .subfooter-container {
   background-image: url(vtest.png);
   background-size: 100% 100%;
+  overflow: hidden;
   min-height: 60em;
-  height: 100%;
 }
 
 .subfooter-container ul li {
@@ -174,5 +173,29 @@ hr {
   margin-top: 5px;
   font-size: 0.95em;
   color: white;
+}
+
+footer {
+  padding: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #7340C9;
+  margin: 0 15px 0 15px;
+}
+
+footer p {
+  color: #4A4A4A;
+}
+
+footer a, footer p {
+  font-size: 3.4em;
 }
 /*# sourceMappingURL=page.css.map */
