@@ -9,12 +9,16 @@
 }
 
 .ev1 li {
-  font-weight: bold;
-  font-size: 1.5em;
-  color: white;
   margin-right: 1.538em;
   margin-top: 0.66em;
   list-style-type: none;
+}
+
+.ev1 li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
 }
 
 .container {
@@ -146,7 +150,7 @@ hr {
   background-image: url(vtest.png);
   background-size: 100% 100%;
   overflow: hidden;
-  min-height: 40em;
+  min-height: 50em;
 }
 
 .subfooter-container ul {
@@ -259,6 +263,9 @@ footer p {
     -webkit-box-flex: 0;
         -ms-flex: 0 50%;
             flex: 0 50%;
+  }
+  .subfooter-container {
+    min-height: 40em;
   }
   .subfooter-container ul {
     -webkit-box-orient: vertical;

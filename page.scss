@@ -4,12 +4,16 @@
   display: flex;
   justify-content: flex-end;
   li {
-    font-weight: bold;
-    font-size: 1.5em;
-    color: white;
+  
     margin-right: 1.538em;
     margin-top: 0.66em;
     list-style-type: none;
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.5em;
+      color: white;
+    }
   }
 }
 
@@ -126,7 +130,7 @@ hr {
   background-image: url(vtest.png);
   background-size: 100% 100%;
   overflow: hidden;
-  min-height: 40em;
+  min-height: 50em;
  
   ul {
     margin-top: 3em;
@@ -227,6 +231,7 @@ footer {
     }
   }
   .subfooter-container {
+    min-height: 40em; 
     ul {
       flex-direction: column;
       
