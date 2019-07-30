@@ -4,7 +4,6 @@
   display: flex;
   justify-content: flex-end;
   li {
-  
     margin-right: 1.538em;
     margin-top: 0.66em;
     list-style-type: none;
@@ -20,11 +19,12 @@
 .container {
   width: 100%;
   margin: auto;
-  background-image: url(particle-bg.png);
+  background-image: url(../assets/particle-bg.png);
   //background-color: #b61924;
 }
 
 * {
+  box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
   font-weight: normal;
   margin: 0;
@@ -39,13 +39,13 @@ h2 {
 
 h1 {
   font-weight: bold;
-  font-size: 5.625em;
+  font-size: 11vh;
   margin-top: 20%;
 }
 
 h2 {
-  font-size: 3.125em;
-  margin-top: 0.2em;
+  font-size: 5.5vh;
+  margin-top: 0em;
 }
 
 h3 {
@@ -54,13 +54,17 @@ h3 {
 
 .scroll {
   padding-bottom: 5em;
-  img {
+  object {
     margin-top: 13em;
     width: 9em;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
+}
+p {
+  color: white;
+  text-align: center;
 }
 
 .grid {
@@ -77,33 +81,33 @@ h3 {
 
 .grid-context {
   display: flex;
-  margin: 0;
-  padding: 0;
+ 
 
   li {
     display: flex;
     flex-direction: column;
     text-align: center;
     list-style-type: none;
-    background-color: #3d00a6;
-
+    background-color: #6627BF;
+    
     padding: 20px;
     margin-right: 30px;
     margin-left: 30px;
     a {
       color: white;
       margin-bottom: 20px;
-      font-size: 1.5em;
+      font-size: 4vh;
     }
     p {
       color: white;
-      margin-bottom: 20px;
+      margin-bottom: 1vh;
     }
     .grid-list {
-      margin: auto;
+      width: 600px;
       display: flex;
       flex-direction: row;
       align-content: space-around;
+      margin: auto;
       i {
         margin: auto;
         font-size: 3em;
@@ -127,11 +131,11 @@ hr {
 }
 
 .subfooter-container {
-  background-image: url(vtest.png);
+  background-image: url(../assets/vtest.png);
   background-size: 100% 100%;
   overflow: hidden;
   min-height: 50em;
- 
+
   ul {
     margin-top: 3em;
     margin-bottom: 3em;
@@ -199,7 +203,7 @@ footer {
 @media screen and (max-width: 1024px) {
   .container {
     .scroll {
-      padding-bottom: 10em; 
+      padding-bottom: 10em;
       img {
         margin-top: 23em;
       }
@@ -221,32 +225,33 @@ footer {
   }
 
   .grid-list {
-    
     flex-wrap: wrap;
+    justify-content: space-around;
     li {
       padding: 0px;
       padding-top: 25px;
       margin: 0px;
-      flex: 0 50%;
+      margin-right: 10px;
+      margin-left: 10px;
+      //flex: 0 50%;
     }
   }
   .subfooter-container {
-    min-height: 40em; 
+    min-height: 40em;
     ul {
       flex-direction: column;
       
       li {
         width: 70%;
         .title {
-        font-size: 1.5em;
+          font-size: 1.5em;
         }
       }
     }
   }
   footer {
-
     flex-direction: column;
-    a { 
+    a {
       font-size: 2.5em;
       margin: 0px;
     }
