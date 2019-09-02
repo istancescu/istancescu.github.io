@@ -1,2 +1,3 @@
-"# resume"  git init git add README.md git commit -m "first commit" git remote add origin https://github.com/reversio/resume.git git push -u origin master
-"# resume" 
+GIT Page for reversio.github.io -
+
+Nothing to see here.
