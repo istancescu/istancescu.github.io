@@ -62,6 +62,7 @@ h3 {
 }
 
 .scroll object {
+  min-height: 100vh;
   margin-top: 13em;
   width: 9em;
   display: block;
@@ -108,9 +109,11 @@ p {
       flex-basis: 40%;
   text-align: center;
   list-style-type: none;
-  background-color: #6627BF;
+  background-color: #6627bf;
   padding: 20px;
   margin-bottom: 20px;
+  border: 2% transparent #6627bf;
+  border-radius: 2%;
 }
 
 .grid-context li a {
@@ -144,7 +147,8 @@ p {
 }
 
 .ra1,
-.ra2, .ra3 {
+.ra2,
+.ra3 {
   margin: auto;
   width: 100%;
   height: auto;
