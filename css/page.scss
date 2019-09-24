@@ -95,9 +95,10 @@ p {
     margin-bottom: 20px;
     border: 2% transparent #6627bf;
     border-radius: 2%;
+
     a {
       color: white;
-      margin-bottom: 20px;
+      margin-bottom: 1vh;
       font-size: 4vh;
     }
     p {
@@ -112,15 +113,13 @@ p {
       margin: auto;
       i {
         margin: auto;
-        font-size: 3em;
+        font-size: 5vh;
       }
     }
   }
 }
 
-.ra1,
-.ra2,
-.ra3 {
+.ra {
   margin: auto;
   width: 100%;
   height: auto;
@@ -205,12 +204,6 @@ footer {
 
 @media screen and (max-width: 1024px) {
   .container {
-    .scroll {
-      padding-bottom: 10em;
-      img {
-        margin-top: 23em;
-      }
-    }
     h1 {
       font-size: 3.4em;
     }
@@ -224,7 +217,7 @@ footer {
       flex-direction: column;
       flex-wrap: nowrap;
       li {
-        margin-bottom: 25px;
+        margin-bottom: 1em;
       }
     }
   }
@@ -232,12 +225,12 @@ footer {
   .grid-list {
     flex-wrap: wrap;
     justify-content: space-around;
+
     li {
-      padding: 0px;
       padding-top: 25px;
-      margin: 0px;
       margin-right: 10px;
       margin-left: 10px;
+      font-size: 250%;
       //flex: 0 50%;
     }
   }
@@ -245,7 +238,6 @@ footer {
     min-height: 40em;
     ul {
       flex-direction: column;
-
       li {
         width: 70%;
         .title {
@@ -279,7 +271,7 @@ footer {
   50% {
     transform: translateY(30px);
   }
-  to {
+  100% {
     transform: translateY(0px);
   }
 }
