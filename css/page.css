@@ -62,12 +62,13 @@ h3 {
 }
 
 .scroll object {
-  min-height: 100vh;
-  margin-top: 13em;
+  min-height: 50vh;
   width: 9em;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  -webkit-animation: object-animation 1s;
+          animation: object-animation 1s;
 }
 
 p {
@@ -318,6 +319,36 @@ footer p {
     margin: auto;
     padding-right: 0px;
     font-size: 2vh;
+  }
+}
+
+@-webkit-keyframes object-animation {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes object-animation {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
   }
 }
 /*# sourceMappingURL=page.css.map */

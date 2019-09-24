@@ -55,12 +55,12 @@ h3 {
 .scroll {
   padding-bottom: 5em;
   object {
-    min-height: 100vh;
-    margin-top: 13em;
+    min-height: 50vh;
     width: 9em;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    animation: object-animation 1s;
   }
 }
 p {
@@ -269,5 +269,17 @@ footer {
       padding-right: 0px;
       font-size: 2vh;
     }
+  }
+}
+
+@keyframes object-animation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  to {
+    transform: translateY(0px);
   }
 }
