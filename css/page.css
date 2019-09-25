@@ -129,7 +129,7 @@ p {
 }
 
 .grid-context li .grid-list {
-  width: 600px;
+  width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,6 +270,9 @@ footer p {
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .grid-list ul {
+    width: 300px;
   }
   .grid-list li {
     padding-top: 25px;

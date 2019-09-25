@@ -106,7 +106,7 @@ p {
       margin-bottom: 1vh;
     }
     .grid-list {
-      width: 600px;
+      width: auto;
       display: flex;
       flex-direction: row;
       align-content: space-around;
@@ -225,7 +225,9 @@ footer {
   .grid-list {
     flex-wrap: wrap;
     justify-content: space-around;
-
+    ul {
+      width: 300px;
+    }
     li {
       padding-top: 25px;
       margin-right: 10px;

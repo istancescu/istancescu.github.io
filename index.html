@@ -3,6 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/page.css" />
     <link
       rel="stylesheet"
@@ -15,8 +16,8 @@
   <body>
     <div class="container">
       <ul class="ev1">
-        <li><a href="mailto:istancescu@protonmail.com" target="_blank">Contact</a></li>
-        <li><a href="./assets/a.pdf" target="_blank">Résumée</a></li>
+        <li><a href="mailto:istancescu@protonmail.com" rel="noopener" target="_blank">Contact</a></li>
+        <li><a href="./assets/a.pdf" rel="noopener" target="_blank">Résumée</a></li>
       </ul>
       <h1>
         IONUT STANCESCU
@@ -28,7 +29,7 @@
         <!--tba-->
       </p>
       <div class="scroll">
-        <object type="image/svg+xml" data="./assets/v1.svg" onclick="animated_scroll()"></object>
+        <object type="image/svg+xml" data="./assets/v1.svg" alt="scroll arrow"></object>
       </div>
     </div>
     <div class="grid">
@@ -42,7 +43,7 @@
             Portofolio is a lightweight, responsive, highly-customizable content display framework and tool that makes
             it easier for you to get your content out there in a way that's accessible and beautiful.
           </p>
-          <a href="https://edociif.netlify.com/" target="_blank">
+          <a href="https://edociif.netlify.com/" rel="noopener" target="_blank">
             <img class="ra" src="./assets/ra1.PNG" alt="Portofolio WebSite" href />
           </a>
           <ul class="grid-list">
@@ -58,7 +59,7 @@
             GitNephew is an website that uses GitHub API to track multiple users evolution through a time period.
             CRUD-based with JWT Authentication.
           </p>
-          <a href="https://gitlab.com/reversio/fiicodefinal" target="_blank">
+          <a href="https://gitlab.com/reversio/fiicodefinal" rel="noopener" target="_blank">
             <img class="ra" src="https://i.imgur.com/aIevDSh.png" alt="Fiicode fiicodefinal" href />
           </a>
           <ul class="grid-list">
@@ -74,7 +75,7 @@
             Responsive & reactive Vue.Js Quiz Web Application that parses data from a custom API built with Flask that
             connects to an MySQL database.
           </p>
-          <a href="https://github.com/reversio/quiz-a-quiz" target="_blank">
+          <a href="https://github.com/reversio/quiz-a-quiz" rel="noopener" target="_blank">
             <img class="ra" src="https://s0.gifyu.com/images/ra2a622bf91c4dd4678.gif" alt="Quiz-a-quiz git" href />
           </a>
           <ul class="grid-list">
@@ -90,7 +91,7 @@
             Minimalistic Task Management Web Application with complete account support built using Flask. Uses JWT for
             Authentication and MySQL for storage.
           </p>
-          <a href="https://github.com/reversio/flask-tasklister" target="_blank">
+          <a href="https://github.com/reversio/flask-tasklister" rel="noopener" target="_blank">
             <img class="ra" src="https://s3.gifyu.com/images/task_lister.gif" alt="Task Management Flask" href />
           </a>
           <ul class="grid-list">
@@ -177,14 +178,24 @@
     </div>
     <footer>
       <p>Looking for a project?</p>
-      <a href="mailto:istancescu@protonmail.com" target="_blank">Let's talk.</a>
+      <a href="mailto:istancescu@protonmail.com" rel="noopener" target="_blank">Let's talk.</a>
       <div class="bottom-buttons">
         <ul>
           <li>
-            <a href="http://gitlab.com/reversio" class="devicon-gitlab-plain-wordmark colored" target="_blank"></a>
+            <a
+              href="http://gitlab.com/reversio"
+              class="devicon-gitlab-plain-wordmark colored"
+              rel="noopener"
+              target="_blank"
+            ></a>
           </li>
           <li>
-            <a href="http://github.com/reversio" class="devicon-github-plain-wordmark colored" target="_blank"></a>
+            <a
+              href="http://github.com/reversio"
+              class="devicon-github-plain-wordmark colored"
+              rel="noopener"
+              target="_blank"
+            ></a>
           </li>
         </ul>
       </div>
