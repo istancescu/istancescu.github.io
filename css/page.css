@@ -23,7 +23,9 @@
 .container {
   width: 100%;
   margin: auto;
-  background-image: url("https://i.imgur.com/pNL0pxn.png");
+  height: 100vh;
+  background-size: fill;
+  background-image: url("https://i.imgur.com/zSt35YW.png");
 }
 
 * {
@@ -37,27 +39,24 @@
 
 h1,
 h2 {
-  color: white;
   text-align: center;
 }
 
 h1 {
+  color: white;
   font-weight: bold;
   font-size: 11vh;
   margin-top: 20%;
 }
 
 h2 {
+  color: #aca5a5;
   font-size: 5.5vh;
   margin-top: 0em;
 }
 
 h3 {
   color: #4a4a4a;
-}
-
-.scroll {
-  padding-bottom: 5em;
 }
 
 .scroll object {
@@ -76,15 +75,15 @@ p {
 }
 
 .grid {
-  margin-top: 50px;
+  background-color: gainsboro;
 }
 
 .grid h3 {
   font-weight: bold;
   font-size: 3.4em;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .grid-context {
@@ -109,15 +108,15 @@ p {
       flex-basis: 40%;
   text-align: center;
   list-style-type: none;
-  background-color: #6627bf;
+  background-color: #191919;
   padding: 20px;
   margin-bottom: 20px;
-  border: 2% transparent #6627bf;
+  border: 2% transparent #191919;
   border-radius: 2%;
 }
 
 .grid-context li a {
-  color: white;
+  color: #eeeeee;
   margin-bottom: 1vh;
   font-size: 4vh;
 }
@@ -160,10 +159,12 @@ hr {
 }
 
 .subfooter-container {
-  background-image: url(https://i.imgur.com/oUgdQCc.png);
+  background-color: #191919;
   background-size: 100% 100%;
   overflow: hidden;
-  min-height: 50em;
+  min-height: 100vh;
+  -webkit-box-shadow: -2px 4px 39px -70px #a39196;
+  box-shadow: -2px 4px 39px -70px #a39196;
 }
 
 .subfooter-container ul {
@@ -182,7 +183,7 @@ hr {
 
 .subfooter-container ul li .title {
   color: white;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -190,11 +191,12 @@ hr {
   text-align: start;
   color: #aaa8a8;
   font-size: 0.9em;
+  margin-top: 0.3em;
 }
 
 .subfooter-container ul li .text-description {
   text-align: start;
-  margin-top: 5px;
+  margin-top: 0.1em;
   font-size: 0.95em;
   color: white;
 }
@@ -211,7 +213,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #7340c9;
+  color: #d15c5c;
   margin: 0 15px 0 15px;
 }
 
@@ -244,11 +246,19 @@ footer p {
 }
 
 @media screen and (max-width: 1024px) {
+  .container {
+    background-image: none;
+    background-color: black;
+  }
   .container h1 {
     font-size: 3.4em;
   }
   .container h2 {
     font-size: 2em;
+  }
+  .container .scroll object {
+    margin-top: 60%;
+    min-height: 0vh;
   }
   .grid .grid-context {
     display: -webkit-box;
@@ -262,7 +272,11 @@ footer p {
         flex-wrap: nowrap;
   }
   .grid .grid-context li {
-    margin-bottom: 1em;
+    margin: 0;
+    margin-bottom: 0.5em;
+  }
+  .grid .grid-context li ul {
+    margin: 0;
   }
   .grid-list {
     -ms-flex-wrap: wrap;
@@ -271,16 +285,15 @@ footer p {
         justify-content: space-around;
   }
   .grid-list ul {
-    width: 300px;
+    width: 100px;
   }
   .grid-list li {
     padding-top: 25px;
-    margin-right: 10px;
-    margin-left: 10px;
     font-size: 250%;
+    margin-bottom: 0em;
   }
   .subfooter-container {
-    min-height: 40em;
+    min-height: 100vh;
   }
   .subfooter-container ul {
     -webkit-box-orient: vertical;
