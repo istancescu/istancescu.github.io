@@ -223,9 +223,7 @@ footer {
     margin-right: 0;
     text-align: center;
   }
-  .body {
-    width: 80%;
-  }
+
   .achievements {
     margin-top: 10%;
 
@@ -236,5 +234,16 @@ footer {
       justify-content: center;
       flex-direction: column;
     }
+  }
+  html,
+  body {
+    margin: 5%;
+    overflow-x: hidden;
+  }
+  .menu {
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    visibility: hidden;
   }
 }
